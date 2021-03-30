@@ -1,0 +1,26 @@
+{
+  "name": "react-native-hybrid",
+  "version": "0.0.1",
+  "description": "react-native-hybrid",
+  "main": "src/index.js",
+  "private": false,
+  "keywords": [
+    "react-native-hybrid",
+    "react-native",
+    "hybrid"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bozaigao/react-native-hybrid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bozaigao/react-native-hybrid/issues"
+  },
+  "author": "650 Industries, Inc.",
+  "license": "MIT",
+  "homepage": "https://github.com/bozaigao/react-native-hybrid",
+  "dependencies": {
+    "invariant": "^2.2.4",
+    "uuid": "^3.4.0"
+  }
+}
