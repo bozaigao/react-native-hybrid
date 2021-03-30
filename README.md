@@ -5,7 +5,7 @@ npm install react-native-hybrid --save
 
 ### 1、rn端js异步调用native方法
 ```js
-import RnHybrid from 'react-native-rn-hybrid';
+import RnHybrid from 'react-native-hybrid';
 const testFunc = async ()=>{
 let data = await RnHybrid.exc('ToastUtil', 'showToast', {
       title: '标题',
@@ -16,7 +16,7 @@ let data = await RnHybrid.exc('ToastUtil', 'showToast', {
 
 ### 2、rn端js异步调用native方法并实时响应native的事件通知
 ```js
-import RnHybrid from 'react-native-rn-hybrid';
+import RnHybrid from 'react-native-hybrid';
 const testFunc = ()=>{
 let eventResumable = RnHybrid.createEventResumable((progress) => {
       console.log('上传文件进度', progress);
