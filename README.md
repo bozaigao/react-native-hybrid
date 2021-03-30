@@ -1,5 +1,5 @@
 # react-native-hybrid
-react-native js端对Android以及iOS统一方法调用、函数回调以及事件通知
+react-native js端对Android以及iOS通过url解析的形式进行统一方法调用、函数回调以及事件通知
 ### 0、安装方式
 npm install react-native-hybrid --save
 
