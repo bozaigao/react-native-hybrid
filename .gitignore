@@ -64,6 +64,4 @@ dist/
 /ios/Pods/
 
 .eslintcache
-android
-ios
 package-lock.json

@@ -1,0 +1,11 @@
+<manifest package="com.medlinker.adapters.react"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <application>
+    <meta-data
+      android:name="com.medlinker.core.AppLoader#react-native-headless"
+      android:value="com.medlinker.adapters.react.apploader.RNHeadlessAppLoader"/>
+  </application>
+
+</manifest>
+  
